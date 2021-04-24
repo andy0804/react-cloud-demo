@@ -1,4 +1,5 @@
-@import "../__variables.css";
+@import "../../__variables.css";
+
 .showcase {
   background-color: var(--primary-color);
   height: 400px;
