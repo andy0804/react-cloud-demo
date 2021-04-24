@@ -1,6 +1,7 @@
 import "./App.css";
 import Cli from "./layout/cli/Cli";
 import Cloud from "./layout/cloud/Cloud";
+import Footer from "./layout/footer/Footer";
 import Languages from "./layout/languages/Languages";
 import Navbar from "./layout/nav/Navbar";
 import Showcase from "./layout/showcase/Showcase";
@@ -15,6 +16,7 @@ function App() {
       <Cli />
       <Cloud />
       <Languages />
+      <Footer />
     </>
   );
 }

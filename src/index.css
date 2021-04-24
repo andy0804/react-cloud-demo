@@ -104,8 +104,14 @@ img {
   background-color: var(--light-color);
   color: #333;
 }
-
-.lead {
+.bg-dark a,
+.btn-dark a,
+.bg-secondary a,
+.btn-secondar a,
+.bg-primary a {
+  color: #fff;
+}
+.btn-primary .lead {
   font-size: 20px;
 }
 .sm {
