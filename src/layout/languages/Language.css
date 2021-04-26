@@ -11,3 +11,7 @@
 .languages .card:hover {
   transform: translateY(-10px);
 }
+
+.languages .container {
+  flex-wrap: wrap;
+}
