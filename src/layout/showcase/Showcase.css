@@ -55,3 +55,21 @@
   -moz-transform: skewY(-1deg);
   -ms-transform: skewY(-1deg);
 }
+
+@media (max-width: 768px) {
+  .showcase .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .showcase {
+    height: auto;
+  }
+  .showcase-text {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .showcase-form {
+    justify-self: center;
+    margin: auto;
+  }
+}
